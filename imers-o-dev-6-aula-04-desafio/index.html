@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Imersão Dev 6 / Aula 04 Desafio </title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <h1 class="page-title">
+    Aluraflix
+  </h1>
+  <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+</div>
+<a href="https://alura.com.br/" target="_blank">
+  <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+</a>
+
+<div class="novoFilme">
+  <input type="text" id="adicionar" placeholder="Insira a url">
+  <input type="text" id="nome" placeholder="Insira o nome do filme">
+  <button onclick="adicionarFilme()" type="submit"> Adicionar </button>
+</div>
+
+
+<!-- <div class="filmeNovo" id="filmeNovo"></div>
+<div class="imagens"></div> -->
+<div class='filmes'></div>
+
+ <section>
+  <select id='deletar'> </select>
+  <button type="submit" onclick="deletar()">Deletar</button>
+</section>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
